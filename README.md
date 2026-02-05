@@ -84,31 +84,32 @@ A modern, premium dashboard application featuring 4 fully-functional apps with b
    ```bash
    npm run build
    ```
-What makes this project unique is the AI-style Command Interface, which allows users to navigate and control apps using natural language commands like:
+## 🚀 AI Command Dashboard
 
-open weather
+An AI-inspired multi-app dashboard that lets users control and navigate different modules using natural language commands. Instead of clicking through menus, users can simply type commands like:
 
-weather in delhi
+open weather  
+weather in delhi  
+tech news  
+search iphone in products  
 
-tech news
+The command interface performs intent detection and smart routing on the frontend, then passes query parameters via URLs to dynamically update each module in real time.
 
-search iphone in products
+---
 
-The command system performs intent detection and smart routing on the frontend, passing relevant query parameters via URLs to dynamically update each module.
+## ✨ What Makes It Unique
 
-✨ Key Features
+This project introduces an AI-style Command Interface that mimics how AI assistants work.  
+Users interact with apps through natural language, while the frontend intelligently:
 
-AI-inspired command bar for natural language navigation
+- Detects user intent  
+- Routes to the correct module  
+- Passes search parameters dynamically  
+- Updates UI without page reloads  
 
-Modular multi-app architecture
+This creates a seamless, assistant-like experience inside a web dashboard.
 
-Real-time API integration
-
-Search, filters, and pagination across apps
-
-Shared UI components and dark mode
-
-Clean, scalable React + TypeScript codebas
+---
 
 ## 🎯 Tech Stack
 
